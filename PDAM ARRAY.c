@@ -21,7 +21,7 @@ float output_denda;
 float pemakaian;
 float biaya;
 float BPM[2] = {9500, 15000};
-float tarif[50][3]   =  {{1220, 1220, 5760},      //0-Sosial A&G
+float tarif[50][3] =  {{1220, 1220, 5760},      //0-Sosial A&G
                        {1320, 1500, 5760},      //1-Sosial B1
                        {1500, 1780, 5820},      //2-Sosial B2
                        {1780, 2060, 5880},      //3-Rumah Tangga D1 - 1
@@ -142,8 +142,7 @@ void Kelompok(){
     }else if(golongan==1){
         close();
         KelompokI();
-    }
-    else if(golongan==2){
+    }else if(golongan==2){
         close();
         KelompokII();
     }else if(golongan==3){
@@ -239,8 +238,7 @@ void sosial(){
         close();
         sosial_ag();
         ulang();
-    }
-    /*else if(menu==2){
+    }else if(menu==2){
         close();
         sosial_b1();
         ulang();
@@ -251,7 +249,7 @@ void sosial(){
     }else if(menu==4){
         close();
         KelompokI();
-    }*/
+    }
 }
 
 void sosial_ag(){
