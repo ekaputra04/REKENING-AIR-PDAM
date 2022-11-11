@@ -1498,7 +1498,7 @@ void niaga_kecil(){
     printf("\n\t|| 1. Pelanggan yang memiliki bidang usaha  ||");
     printf("\n\t||    dan didepan usahanya terdapat jalan   ||");
     printf("\n\t||    yang kelebarannya termasuk saluran got||");
-    printf("\n\t||    dan berm 0 – 6,99 meter serta dengan  ||");
+    printf("\n\t||    dan berm 0 Â– 6,99 meter serta dengan  ||");
     printf("\n\t||    daya listrik 450 VA                   ||");
     printf("\n\t|| 2. SDA dengan daya listrik = 900 VA      ||");
     printf("\n\t|| 3. SDA dengan daya listrik = 1300 VA     ||");
@@ -2253,12 +2253,13 @@ void ulang(){
 }
 
 void end(){
-    printf("\n\t===============================================");
-    printf("\n\t||                                           ||");
-    printf("\n\t|| TERIMAKASIH TELAH MENGGUNAKAN PROGRAM INI ||");
-    printf("\n\t||           SAMPAI JUMPA KEMBALI            ||");
-    printf("\n\t||                                           ||");
-    printf("\n\t||          SALAM HANGAT: EBIKCOOL           ||");
-    printf("\n\t||                                           ||");
-    printf("\n\t===============================================\n\n\n");
+    printf("\n\t==============================================");
+    printf("\n\t||                                          ||");
+    printf("\n\t||TERIMAKASIH TELAH MENGGUNAKAN PROGRAM KAMI||");
+    printf("\n\t||           SAMPAI JUMPA KEMBALI           ||");
+    printf("\n\t||                                          ||");
+    printf("\n\t||==========================================||");
+    printf("\n\t||                  MY PDAM                 ||");
+    printf("\n\t||      Save Our Water, Save Our Earth      ||");
+    printf("\n\t==============================================\n\n\n");
 }
